@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="a6zVO4LIeffwvPidC3fd" name="Page-1">
+        <mxGraphModel dx="688" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Menu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="30" width="490" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Title" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="120" width="490" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Details" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="210" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="210" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="295" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="380" width="220" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
