@@ -25,6 +25,6 @@
   margin-top: 20px;
 }
 
-.description > p {
+.description > p > a {
   color: grey;
 }

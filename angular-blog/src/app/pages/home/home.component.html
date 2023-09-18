@@ -1,34 +1,21 @@
-<header>
-  <app-menu></app-menu>
-</header>
 <app-title></app-title>
 
 <div class="articles">
   <div class="articles_main">
     <app-details
-      photo="https://user-images.githubusercontent.com/20684618/31289519-9ebdbe1a-aae6-11e7-8f82-bf794fdd9d1a.png"
-      title="Lorem Ipsum"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu metus in
-      lacus consectetur hendrerit. Cras non arcu id est dignissim condimentum.
-      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-      inceptos himenaeos. In non posuere nisi. Ut sollicitudin libero quis felis
-      fermentum tincidunt. Vivamus metus magna, lacinia vel libero eget,
-      tincidunt dapibus arcu. Phasellus justo lorem, tincidunt ac sem vitae,
-      efficitur laoreet erat."
+      id="{{ languageDetail?.id }}"
+      photo="{{ languageDetail?.photo }}"
+      title="{{ languageDetail?.title }}"
+      description="{{ languageDetail?.description }}"
     ></app-details>
   </div>
   <div class="articles_others">
-    <app-card
-      photo="https://user-images.githubusercontent.com/20684618/31289519-9ebdbe1a-aae6-11e7-8f82-bf794fdd9d1a.png"
-      title="Title"
-    ></app-card>
-    <app-card
-      photo="https://user-images.githubusercontent.com/20684618/31289519-9ebdbe1a-aae6-11e7-8f82-bf794fdd9d1a.png"
-      title="Title"
-    ></app-card>
-    <app-card
-      photo="https://user-images.githubusercontent.com/20684618/31289519-9ebdbe1a-aae6-11e7-8f82-bf794fdd9d1a.png"
-      title="Title"
-    ></app-card>
+    <div *ngFor="let item of languages">
+      <app-card
+        id="{{ item.id }}"
+        photo="{{ item.photo }}"
+        title="{{ item.title }}"
+      ></app-card>
+    </div>
   </div>
 </div>

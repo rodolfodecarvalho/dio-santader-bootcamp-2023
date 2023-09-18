@@ -11,4 +11,7 @@ export class CardComponent {
 
   @Input()
   title: string = '';
+
+  @Input()
+  id: string = '0';
 }

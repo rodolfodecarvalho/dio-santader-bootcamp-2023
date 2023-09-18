@@ -14,4 +14,7 @@ export class DetailsComponent {
 
   @Input()
   description: string = '';
+
+  @Input()
+  id: string = '0';
 }
