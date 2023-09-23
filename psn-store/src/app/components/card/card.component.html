@@ -1,5 +1,8 @@
 <a href="" class="container">
-	<img class="img" src="assets/bt-5.jpg" alt="" srcset="" />
-	<app-label gameLabel="Exclusive"></app-label>
-	<app-pricing></app-pricing>
+	<img class="img" [src]="[gameCover]" alt="" srcset="" />
+	<app-label gameLabel="{{ gameLabel }}"></app-label>
+	<app-pricing
+		gamePrice="{{ gamePrice }}"
+		gameType="{{ gameType }}"
+	></app-pricing>
 </a>
